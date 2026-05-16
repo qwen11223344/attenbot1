@@ -1,0 +1,27 @@
+name: attendbot
+description: Automatic Attendance Bot - Android & iOS
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.8.0
+  shared_preferences: ^2.2.3
+  flutter_local_notifications: ^17.2.4
+  permission_handler: ^11.3.1
+  connectivity_plus: ^6.1.4
+  workmanager: ^0.5.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
