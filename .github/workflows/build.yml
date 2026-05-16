@@ -40,14 +40,14 @@ jobs:
 
     - name: Upload APK artifact
       if: success()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: flutter-apk
         path: build/app/outputs/flutter-app.apk
 
     - name: Upload iOS artifact
       if: success()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: flutter-ios
         path: build/ios/iphoneos/
